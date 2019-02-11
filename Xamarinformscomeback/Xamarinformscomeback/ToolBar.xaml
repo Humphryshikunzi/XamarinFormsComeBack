@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarinformscomeback.ToolBar">
+<ContentPage.ToolbarItems>
+       <ToolbarItem  Icon="" Text="Add" Activated="ToolbarItem_OnActivated" Order="Primary"></ToolbarItem>
+        <ToolbarItem  Icon="" Text="Add" Activated="ToolbarItem_OnActivated" Order="Secondary"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+</ContentPage>
