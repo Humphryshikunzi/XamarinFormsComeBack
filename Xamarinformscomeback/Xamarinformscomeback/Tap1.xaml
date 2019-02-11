@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:local="clr-namespace:Xamarinformscomeback;assembly=Xamarinformscomeback"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarinformscomeback.Tap1">
+
+    <local:Tap2 Title="Tab1"></local:Tap2>
+    <ContentPage Title="Tab3">
+        <Label Text="Tabbed page 2" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+    </ContentPage>
+    <NavigationPage Title="Tab3">
+        <x:Arguments >
+            <local:Tap3 Title="Tab3"></local:Tap3>
+        </x:Arguments>
+    </NavigationPage>
+ 
+</TabbedPage>

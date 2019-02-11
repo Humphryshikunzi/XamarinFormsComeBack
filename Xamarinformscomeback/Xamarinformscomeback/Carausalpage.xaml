@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:Local="clr-namespace:Xamarinformscomeback;assembly=Xamarinformscomeback"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarinformscomeback.Carausalpage">
+    <Local:Tap2 ></Local:Tap2>
+    <ContentPage >
+       <Label HorizontalOptions="Center" Text="Welcome Humphry"
+              VerticalOptions="Center"></Label>
+    </ContentPage>
+    <Local:Tap3 ></Local:Tap3>
+   
+</CarouselPage>
+    

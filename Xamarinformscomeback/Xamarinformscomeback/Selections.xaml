@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarinformscomeback.Selections">
+    <StackLayout>
+        <SearchBar TextChanged="Search" Placeholder="Search Contact" PlaceholderColor="AntiqueWhite" TextColor="Brown"></SearchBar>
+        <ListView x:Name="MyListView" Parent="5" Margin="5" IsPullToRefreshEnabled="True" Refreshing="RefreshList"
+                  ItemSelected="MyListView_OnItemSelected" ItemTapped="MyListView_OnItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <TextCell Text="{Binding Name }" TextColor="Brown" 
+                              Detail="{Binding Status}" DetailColor="Azure">
+                        <TextCell.ContextActions>
+                            <MenuItem Text="Call" Clicked="Call" CommandParameter="{Binding .}" ></MenuItem>
+                            <MenuItem Text="Delete" Clicked="Delete" IsDestructive="True" CommandParameter="{Binding .}"></MenuItem>
+                        </TextCell.ContextActions>
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+   </ContentPage>

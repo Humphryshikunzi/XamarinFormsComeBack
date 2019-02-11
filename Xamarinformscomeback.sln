@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarinformscomeback.Android", "Xamarinformscomeback\Xamarinformscomeback.Android\Xamarinformscomeback.Android.csproj", "{CB2A59EB-2858-4758-A5B6-5D19044E23F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarinformscomeback", "Xamarinformscomeback\Xamarinformscomeback\Xamarinformscomeback.csproj", "{6C531BE4-C6BD-4069-A5C3-CCC557395FB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB2A59EB-2858-4758-A5B6-5D19044E23F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2A59EB-2858-4758-A5B6-5D19044E23F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2A59EB-2858-4758-A5B6-5D19044E23F6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CB2A59EB-2858-4758-A5B6-5D19044E23F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2A59EB-2858-4758-A5B6-5D19044E23F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2A59EB-2858-4758-A5B6-5D19044E23F6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6C531BE4-C6BD-4069-A5C3-CCC557395FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C531BE4-C6BD-4069-A5C3-CCC557395FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C531BE4-C6BD-4069-A5C3-CCC557395FB3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6C531BE4-C6BD-4069-A5C3-CCC557395FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C531BE4-C6BD-4069-A5C3-CCC557395FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C531BE4-C6BD-4069-A5C3-CCC557395FB3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {261980D0-7EF3-4E3A-8B1A-2DA9BDB0FAD4}
+	EndGlobalSection
+EndGlobal
